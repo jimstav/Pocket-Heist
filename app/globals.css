@@ -47,6 +47,12 @@ svg.logo {
   @apply text-center text-xl font-bold;
 }
 
+/* preview grid */
+.preview-grid {
+  @apply grid gap-4 mt-4;
+  grid-template-columns: repeat(auto-fill, minmax(360px, 1fr));
+}
+
 /* buttons */
 .btn {
   @apply bg-primary text-heading font-medium px-4 py-2 rounded-lg transition-opacity hover:opacity-80;
