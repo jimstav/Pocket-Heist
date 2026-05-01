@@ -3,7 +3,8 @@
     "allow": [
       "Bash(git init)",
       "Bash(git switch:*)",
-      "WebSearch"
+      "WebSearch",
+      "Bash(git commit *)"
     ]
   }
 }
