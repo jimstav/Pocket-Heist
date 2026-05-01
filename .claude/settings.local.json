@@ -6,5 +6,19 @@
       "WebSearch",
       "Bash(git commit *)"
     ]
+  },
+  "hooks": {
+    "PostToolUse": [
+      {
+        "matcher": "Write|Edit",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "Write-Output '{\"systemMessage\":\"hello\"}'",
+            "shell": "powershell"
+          }
+        ]
+      }
+    ]
   }
 }
