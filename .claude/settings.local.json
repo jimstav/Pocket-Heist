@@ -14,12 +14,8 @@
         "hooks": [
           {
             "type": "command",
-            "command": "Write-Output '{\"systemMessage\":\"hello\"}'",
+            "command": "$j=[Console]::In.ReadToEnd()|ConvertFrom-Json; npx prettier --write --ignore-unknown ($j.tool_input.file_path)",
             "shell": "powershell"
-          },
-          {
-            "type": "command",
-            "command": "jq . > tool-use.json"
           }
         ]
       }
