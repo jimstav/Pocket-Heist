@@ -16,6 +16,10 @@
             "type": "command",
             "command": "Write-Output '{\"systemMessage\":\"hello\"}'",
             "shell": "powershell"
+          },
+          {
+            "type": "command",
+            "command": "jq . > tool-use.json"
           }
         ]
       }
