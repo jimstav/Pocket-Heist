@@ -1,0 +1,61 @@
+@reference "../../app/globals.css";
+
+.formWrapper {
+  @apply max-w-sm w-full mx-auto flex flex-col gap-6 py-8;
+}
+
+.formWrapper form {
+  @apply flex flex-col gap-4;
+}
+
+.field {
+  @apply flex flex-col gap-1;
+}
+
+.field label {
+  @apply text-sm font-medium text-heading;
+}
+
+.field input {
+  @apply bg-light text-heading rounded-lg px-3 py-2 w-full outline-none;
+}
+
+.field input:focus {
+  @apply ring-2 ring-primary;
+}
+
+.passwordWrapper {
+  @apply relative flex items-center;
+}
+
+.passwordWrapper input {
+  @apply pr-10;
+}
+
+.toggleBtn {
+  @apply absolute right-3 text-body transition-colors;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.toggleBtn:hover {
+  @apply text-heading;
+}
+
+.error {
+  @apply text-xs mt-1;
+  color: var(--color-error);
+}
+
+.footer {
+  @apply text-center text-sm text-body;
+}
+
+.footer a {
+  @apply text-primary;
+}
+
+.footer a:hover {
+  @apply text-secondary;
+}

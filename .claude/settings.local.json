@@ -8,7 +8,9 @@
       "Bash(npm view *)",
       "Bash(npm install *)",
       "Bash(claude *)",
-      "Bash(Get-ChildItem *)"
+      "Bash(Get-ChildItem *)",
+      "Bash(npx vitest *)",
+      "Bash(npm run *)"
     ]
   },
   "hooks": {
