@@ -4,7 +4,10 @@
       "Bash(git init)",
       "Bash(git switch:*)",
       "WebSearch",
-      "Bash(git commit *)"
+      "Bash(git commit *)",
+      "Bash(npm view *)",
+      "Bash(npm install *)",
+      "Bash(claude *)"
     ]
   },
   "hooks": {
